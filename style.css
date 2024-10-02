@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-flow: column;
+    height: 100vh;
+    background-color:aliceblue;
+}
+
+.principal{
+    height: 50vh;
+    width: 70vw;
+    background-color:rgba(57, 59, 59, 0.347);
+    border-radius: 8px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.entrada{
+    width: 80%;
+    height: 30%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+form{
+    display: flex;
+    flex-flow: column;
+    gap:10px;
+}
+
+form input{
+    background-color: aliceblue;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de endereços</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+
+        <h2>Consulta de endereços</h2>
+        
+        <div class="principal">
+            <div class="entrada">
+                <label for="endereco">Digite seu CEP</label>
+                <input type="text" id="CEP" placeholder="XXXXX-XXX" size="15">
+            </div>
+
+            <button id="evntClick">Gerar Dados</button>
+            
+            <div class="resultados">
+                <form>
+                    <label>Rua:
+                    <input disabled name="rua" type="text" id="rua" size="60" /></label>
+                    <label>Bairro:
+                    <input disabled name="bairro" type="text" id="bairro" size="40" /></label>
+                    <label>Cidade:
+                    <input disabled name="cidade" type="text" id="cidade" size="40" /></label>
+                    <label>Estado:
+                    <input disabled name="uf" type="text" id="uf" size="2" /></label>
+                  </form>
+            </div>
+        </div>
+        
+        
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
